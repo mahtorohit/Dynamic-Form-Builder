@@ -1,0 +1,49 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every
+//  source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+typedef enum {
+  FieldLabelField = 200,
+  FieldTextField = 201,
+  FieldTextView = 202,
+  FieldCheBoxType1 = 203,
+  //    FieldCheBoxType2=204,
+  FieldDatePicker = 205,
+  FieldDataPicker = 206,
+  FieldImagePicker = 207,
+  FieldInputePop = 208,
+  FieldSegment = 209,
+  FieldAmPmCheck = 210,
+  FieldAmPmSegment = 211,
+  FieldAmPmImagePicker = 212,
+  FieldAmPmInputePop = 213,
+  FieldLabText = 214,
+  FieldLabTextBig = 215,
+  FieldDataPickerMulti = 216
+
+} FieldType;
+
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v) \
+  ([[[UIDevice currentDevice] systemVersion]       \
+       compare:v                                   \
+       options:NSNumericSearch] != NSOrderedAscending)
+#define Theme_Color @"59568C"
+
+#endif
+
+#import "DateChangeListener.h"
+#import "DataSelectListener.h"
+#import "TextInputeChangeListener.h"

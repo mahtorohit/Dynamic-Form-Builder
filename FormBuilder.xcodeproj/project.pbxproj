@@ -15,6 +15,34 @@
 		F9E03C82209459E500D68A8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03C81209459E500D68A8F /* main.m */; };
 		F9E03C8C209459E500D68A8F /* FormBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03C8B209459E500D68A8F /* FormBuilderTests.m */; };
 		F9E03C97209459E500D68A8F /* FormBuilderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03C96209459E500D68A8F /* FormBuilderUITests.m */; };
+		F9E03CB120945A9300D68A8F /* SSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CA920945A9200D68A8F /* SSTextView.m */; };
+		F9E03CB220945A9300D68A8F /* RMFormSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CAA20945A9200D68A8F /* RMFormSelectionViewController.m */; };
+		F9E03CB420945A9300D68A8F /* FormHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CAF20945A9300D68A8F /* FormHolder.m */; };
+		F9E03CBE20945ACD00D68A8F /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CB620945ACD00D68A8F /* DejalActivityView.m */; };
+		F9E03CBF20945ACD00D68A8F /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CB720945ACD00D68A8F /* UIImage+Resize.m */; };
+		F9E03CC020945ACD00D68A8F /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CB920945ACD00D68A8F /* UIImage+Alpha.m */; };
+		F9E03CC120945ACD00D68A8F /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CBC20945ACD00D68A8F /* UIImage+RoundedCorner.m */; };
+		F9E03CCB20945AF300D68A8F /* ImagePopOver.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CC320945AF200D68A8F /* ImagePopOver.m */; };
+		F9E03CCC20945AF300D68A8F /* DatePopOver.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CC420945AF200D68A8F /* DatePopOver.m */; };
+		F9E03CCD20945AF300D68A8F /* DataPopOver.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CC620945AF200D68A8F /* DataPopOver.m */; };
+		F9E03CCE20945AF300D68A8F /* TextInputePoppOver.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CC720945AF200D68A8F /* TextInputePoppOver.m */; };
+		F9E03CDA20945B2700D68A8F /* UITextView+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CD020945B2600D68A8F /* UITextView+Extra.m */; };
+		F9E03CDB20945B2700D68A8F /* UISegmentedControl+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CD320945B2700D68A8F /* UISegmentedControl+Extra.m */; };
+		F9E03CDC20945B2700D68A8F /* UISwitch+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CD420945B2700D68A8F /* UISwitch+Extra.m */; };
+		F9E03CDD20945B2700D68A8F /* UIButton+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CD820945B2700D68A8F /* UIButton+Extra.m */; };
+		F9E03CDE20945B2700D68A8F /* UITextField+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CD920945B2700D68A8F /* UITextField+Extra.m */; };
+		F9E03CE920945B4800D68A8F /* form.json in Resources */ = {isa = PBXBuildFile; fileRef = F9E03CE120945B4700D68A8F /* form.json */; };
+		F9E03CEA20945B4800D68A8F /* ViewGenaratore.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CE320945B4700D68A8F /* ViewGenaratore.m */; };
+		F9E03CEB20945B4800D68A8F /* demo.json in Resources */ = {isa = PBXBuildFile; fileRef = F9E03CE520945B4800D68A8F /* demo.json */; };
+		F9E03CEC20945B4800D68A8F /* formv1.json in Resources */ = {isa = PBXBuildFile; fileRef = F9E03CE620945B4800D68A8F /* formv1.json */; };
+		F9E03CED20945B4800D68A8F /* ElementDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CE720945B4800D68A8F /* ElementDetails.m */; };
+		F9E03CEE20945B4800D68A8F /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CE820945B4800D68A8F /* DataController.m */; };
+		F9E03CFA20945B6100D68A8F /* FormParserV1.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CF120945B6000D68A8F /* FormParserV1.m */; };
+		F9E03CFB20945B6100D68A8F /* RMFormsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CF420945B6100D68A8F /* RMFormsInfo.m */; };
+		F9E03CFC20945B6100D68A8F /* RMFormsRowInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CF520945B6100D68A8F /* RMFormsRowInfo.m */; };
+		F9E03CFD20945B6100D68A8F /* RMFormsCateforyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CF620945B6100D68A8F /* RMFormsCateforyInfo.m */; };
+		F9E03CFE20945B6100D68A8F /* FormParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03CF920945B6100D68A8F /* FormParser.m */; };
+		F9E03D0720945B9900D68A8F /* GlobalConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E03D0620945B9900D68A8F /* GlobalConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +79,65 @@
 		F9E03C92209459E500D68A8F /* FormBuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormBuilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E03C96209459E500D68A8F /* FormBuilderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormBuilderUITests.m; sourceTree = "<group>"; };
 		F9E03C98209459E500D68A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E03CA820945A9200D68A8F /* SSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTextView.h; sourceTree = "<group>"; };
+		F9E03CA920945A9200D68A8F /* SSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTextView.m; sourceTree = "<group>"; };
+		F9E03CAA20945A9200D68A8F /* RMFormSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMFormSelectionViewController.m; sourceTree = "<group>"; };
+		F9E03CAB20945A9200D68A8F /* RMFormSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMFormSelectionViewController.h; sourceTree = "<group>"; };
+		F9E03CAE20945A9200D68A8F /* FormHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormHolder.h; sourceTree = "<group>"; };
+		F9E03CAF20945A9300D68A8F /* FormHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormHolder.m; sourceTree = "<group>"; };
+		F9E03CB620945ACD00D68A8F /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
+		F9E03CB720945ACD00D68A8F /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		F9E03CB820945ACD00D68A8F /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		F9E03CB920945ACD00D68A8F /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		F9E03CBA20945ACD00D68A8F /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
+		F9E03CBB20945ACD00D68A8F /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		F9E03CBC20945ACD00D68A8F /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		F9E03CBD20945ACD00D68A8F /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		F9E03CC320945AF200D68A8F /* ImagePopOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePopOver.m; sourceTree = "<group>"; };
+		F9E03CC420945AF200D68A8F /* DatePopOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePopOver.m; sourceTree = "<group>"; };
+		F9E03CC520945AF200D68A8F /* ImagePopOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePopOver.h; sourceTree = "<group>"; };
+		F9E03CC620945AF200D68A8F /* DataPopOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPopOver.m; sourceTree = "<group>"; };
+		F9E03CC720945AF200D68A8F /* TextInputePoppOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInputePoppOver.m; sourceTree = "<group>"; };
+		F9E03CC820945AF300D68A8F /* TextInputePoppOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInputePoppOver.h; sourceTree = "<group>"; };
+		F9E03CC920945AF300D68A8F /* DatePopOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePopOver.h; sourceTree = "<group>"; };
+		F9E03CCA20945AF300D68A8F /* DataPopOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPopOver.h; sourceTree = "<group>"; };
+		F9E03CD020945B2600D68A8F /* UITextView+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extra.m"; sourceTree = "<group>"; };
+		F9E03CD120945B2600D68A8F /* UISegmentedControl+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+Extra.h"; sourceTree = "<group>"; };
+		F9E03CD220945B2600D68A8F /* UITextView+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extra.h"; sourceTree = "<group>"; };
+		F9E03CD320945B2700D68A8F /* UISegmentedControl+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+Extra.m"; sourceTree = "<group>"; };
+		F9E03CD420945B2700D68A8F /* UISwitch+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Extra.m"; sourceTree = "<group>"; };
+		F9E03CD520945B2700D68A8F /* UISwitch+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Extra.h"; sourceTree = "<group>"; };
+		F9E03CD620945B2700D68A8F /* UITextField+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extra.h"; sourceTree = "<group>"; };
+		F9E03CD720945B2700D68A8F /* UIButton+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extra.h"; sourceTree = "<group>"; };
+		F9E03CD820945B2700D68A8F /* UIButton+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extra.m"; sourceTree = "<group>"; };
+		F9E03CD920945B2700D68A8F /* UITextField+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extra.m"; sourceTree = "<group>"; };
+		F9E03CE020945B4700D68A8F /* ElementDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementDetails.h; sourceTree = "<group>"; };
+		F9E03CE120945B4700D68A8F /* form.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = form.json; sourceTree = "<group>"; };
+		F9E03CE220945B4700D68A8F /* ViewGenaratore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewGenaratore.h; sourceTree = "<group>"; };
+		F9E03CE320945B4700D68A8F /* ViewGenaratore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewGenaratore.m; sourceTree = "<group>"; };
+		F9E03CE420945B4700D68A8F /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		F9E03CE520945B4800D68A8F /* demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = demo.json; sourceTree = "<group>"; };
+		F9E03CE620945B4800D68A8F /* formv1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = formv1.json; sourceTree = "<group>"; };
+		F9E03CE720945B4800D68A8F /* ElementDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementDetails.m; sourceTree = "<group>"; };
+		F9E03CE820945B4800D68A8F /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		F9E03CF020945B6000D68A8F /* FormParserV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormParserV1.h; sourceTree = "<group>"; };
+		F9E03CF120945B6000D68A8F /* FormParserV1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormParserV1.m; sourceTree = "<group>"; };
+		F9E03CF220945B6000D68A8F /* FormParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormParser.h; sourceTree = "<group>"; };
+		F9E03CF320945B6100D68A8F /* RMFormsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMFormsInfo.h; sourceTree = "<group>"; };
+		F9E03CF420945B6100D68A8F /* RMFormsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMFormsInfo.m; sourceTree = "<group>"; };
+		F9E03CF520945B6100D68A8F /* RMFormsRowInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMFormsRowInfo.m; sourceTree = "<group>"; };
+		F9E03CF620945B6100D68A8F /* RMFormsCateforyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMFormsCateforyInfo.m; sourceTree = "<group>"; };
+		F9E03CF720945B6100D68A8F /* RMFormsCateforyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMFormsCateforyInfo.h; sourceTree = "<group>"; };
+		F9E03CF820945B6100D68A8F /* RMFormsRowInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMFormsRowInfo.h; sourceTree = "<group>"; };
+		F9E03CF920945B6100D68A8F /* FormParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormParser.m; sourceTree = "<group>"; };
+		F9E03D0020945B7F00D68A8F /* ImageChangeListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageChangeListener.h; sourceTree = "<group>"; };
+		F9E03D0120945B7F00D68A8F /* LoginPopDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginPopDelegate.h; sourceTree = "<group>"; };
+		F9E03D0220945B7F00D68A8F /* DateChangeListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateChangeListener.h; sourceTree = "<group>"; };
+		F9E03D0320945B7F00D68A8F /* TextInputeChangeListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextInputeChangeListener.h; sourceTree = "<group>"; };
+		F9E03D0420945B7F00D68A8F /* DataSelectListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSelectListener.h; sourceTree = "<group>"; };
+		F9E03D0520945B9900D68A8F /* GlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConstants.h; sourceTree = "<group>"; };
+		F9E03D0620945B9900D68A8F /* GlobalConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConstants.m; sourceTree = "<group>"; };
+		F9E03D082094651300D68A8F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +188,8 @@
 		F9E03C71209459E500D68A8F /* FormBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				F9E03D082094651300D68A8F /* PrefixHeader.pch */,
+				F9E03CA4209459F800D68A8F /* RMForms */,
 				F9E03C72209459E500D68A8F /* AppDelegate.h */,
 				F9E03C73209459E500D68A8F /* AppDelegate.m */,
 				F9E03C75209459E500D68A8F /* ViewController.h */,
@@ -130,6 +219,127 @@
 				F9E03C98209459E500D68A8F /* Info.plist */,
 			);
 			path = FormBuilderUITests;
+			sourceTree = "<group>";
+		};
+		F9E03CA4209459F800D68A8F /* RMForms */ = {
+			isa = PBXGroup;
+			children = (
+				F9E03D0520945B9900D68A8F /* GlobalConstants.h */,
+				F9E03D0620945B9900D68A8F /* GlobalConstants.m */,
+				F9E03CFF20945B7100D68A8F /* Protocall */,
+				F9E03CEF20945B4E00D68A8F /* Parser */,
+				F9E03CDF20945B3A00D68A8F /* Element */,
+				F9E03CCF20945AFC00D68A8F /* Category */,
+				F9E03CC220945AD500D68A8F /* Popover */,
+				F9E03CB520945AC100D68A8F /* BaseComponents */,
+				F9E03CA520945A8200D68A8F /* SelectionForm */,
+			);
+			path = RMForms;
+			sourceTree = "<group>";
+		};
+		F9E03CA520945A8200D68A8F /* SelectionForm */ = {
+			isa = PBXGroup;
+			children = (
+				F9E03CAE20945A9200D68A8F /* FormHolder.h */,
+				F9E03CAF20945A9300D68A8F /* FormHolder.m */,
+				F9E03CAB20945A9200D68A8F /* RMFormSelectionViewController.h */,
+				F9E03CAA20945A9200D68A8F /* RMFormSelectionViewController.m */,
+				F9E03CA820945A9200D68A8F /* SSTextView.h */,
+				F9E03CA920945A9200D68A8F /* SSTextView.m */,
+			);
+			path = SelectionForm;
+			sourceTree = "<group>";
+		};
+		F9E03CB520945AC100D68A8F /* BaseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F9E03CBA20945ACD00D68A8F /* DejalActivityView.h */,
+				F9E03CB620945ACD00D68A8F /* DejalActivityView.m */,
+				F9E03CB820945ACD00D68A8F /* UIImage+Alpha.h */,
+				F9E03CB920945ACD00D68A8F /* UIImage+Alpha.m */,
+				F9E03CBB20945ACD00D68A8F /* UIImage+Resize.h */,
+				F9E03CB720945ACD00D68A8F /* UIImage+Resize.m */,
+				F9E03CBD20945ACD00D68A8F /* UIImage+RoundedCorner.h */,
+				F9E03CBC20945ACD00D68A8F /* UIImage+RoundedCorner.m */,
+			);
+			path = BaseComponents;
+			sourceTree = "<group>";
+		};
+		F9E03CC220945AD500D68A8F /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				F9E03CCA20945AF300D68A8F /* DataPopOver.h */,
+				F9E03CC620945AF200D68A8F /* DataPopOver.m */,
+				F9E03CC920945AF300D68A8F /* DatePopOver.h */,
+				F9E03CC420945AF200D68A8F /* DatePopOver.m */,
+				F9E03CC520945AF200D68A8F /* ImagePopOver.h */,
+				F9E03CC320945AF200D68A8F /* ImagePopOver.m */,
+				F9E03CC820945AF300D68A8F /* TextInputePoppOver.h */,
+				F9E03CC720945AF200D68A8F /* TextInputePoppOver.m */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		F9E03CCF20945AFC00D68A8F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F9E03CD720945B2700D68A8F /* UIButton+Extra.h */,
+				F9E03CD820945B2700D68A8F /* UIButton+Extra.m */,
+				F9E03CD120945B2600D68A8F /* UISegmentedControl+Extra.h */,
+				F9E03CD320945B2700D68A8F /* UISegmentedControl+Extra.m */,
+				F9E03CD520945B2700D68A8F /* UISwitch+Extra.h */,
+				F9E03CD420945B2700D68A8F /* UISwitch+Extra.m */,
+				F9E03CD620945B2700D68A8F /* UITextField+Extra.h */,
+				F9E03CD920945B2700D68A8F /* UITextField+Extra.m */,
+				F9E03CD220945B2600D68A8F /* UITextView+Extra.h */,
+				F9E03CD020945B2600D68A8F /* UITextView+Extra.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F9E03CDF20945B3A00D68A8F /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				F9E03CE420945B4700D68A8F /* DataController.h */,
+				F9E03CE820945B4800D68A8F /* DataController.m */,
+				F9E03CE520945B4800D68A8F /* demo.json */,
+				F9E03CE020945B4700D68A8F /* ElementDetails.h */,
+				F9E03CE720945B4800D68A8F /* ElementDetails.m */,
+				F9E03CE120945B4700D68A8F /* form.json */,
+				F9E03CE620945B4800D68A8F /* formv1.json */,
+				F9E03CE220945B4700D68A8F /* ViewGenaratore.h */,
+				F9E03CE320945B4700D68A8F /* ViewGenaratore.m */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
+		F9E03CEF20945B4E00D68A8F /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				F9E03CF220945B6000D68A8F /* FormParser.h */,
+				F9E03CF920945B6100D68A8F /* FormParser.m */,
+				F9E03CF020945B6000D68A8F /* FormParserV1.h */,
+				F9E03CF120945B6000D68A8F /* FormParserV1.m */,
+				F9E03CF720945B6100D68A8F /* RMFormsCateforyInfo.h */,
+				F9E03CF620945B6100D68A8F /* RMFormsCateforyInfo.m */,
+				F9E03CF320945B6100D68A8F /* RMFormsInfo.h */,
+				F9E03CF420945B6100D68A8F /* RMFormsInfo.m */,
+				F9E03CF820945B6100D68A8F /* RMFormsRowInfo.h */,
+				F9E03CF520945B6100D68A8F /* RMFormsRowInfo.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		F9E03CFF20945B7100D68A8F /* Protocall */ = {
+			isa = PBXGroup;
+			children = (
+				F9E03D0420945B7F00D68A8F /* DataSelectListener.h */,
+				F9E03D0220945B7F00D68A8F /* DateChangeListener.h */,
+				F9E03D0020945B7F00D68A8F /* ImageChangeListener.h */,
+				F9E03D0120945B7F00D68A8F /* LoginPopDelegate.h */,
+				F9E03D0320945B7F00D68A8F /* TextInputeChangeListener.h */,
+			);
+			path = Protocall;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +409,7 @@
 				TargetAttributes = {
 					F9E03C6E209459E500D68A8F = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					F9E03C86209459E500D68A8F = {
 						CreatedOnToolsVersion = 9.2;
@@ -238,8 +448,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E03CEC20945B4800D68A8F /* formv1.json in Resources */,
 				F9E03C7F209459E500D68A8F /* LaunchScreen.storyboard in Resources */,
+				F9E03CE920945B4800D68A8F /* form.json in Resources */,
 				F9E03C7C209459E500D68A8F /* Assets.xcassets in Resources */,
+				F9E03CEB20945B4800D68A8F /* demo.json in Resources */,
 				F9E03C7A209459E500D68A8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +478,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E03CFB20945B6100D68A8F /* RMFormsInfo.m in Sources */,
+				F9E03CBE20945ACD00D68A8F /* DejalActivityView.m in Sources */,
 				F9E03C77209459E500D68A8F /* ViewController.m in Sources */,
+				F9E03CFA20945B6100D68A8F /* FormParserV1.m in Sources */,
+				F9E03CB420945A9300D68A8F /* FormHolder.m in Sources */,
+				F9E03CEA20945B4800D68A8F /* ViewGenaratore.m in Sources */,
+				F9E03CCE20945AF300D68A8F /* TextInputePoppOver.m in Sources */,
+				F9E03CC120945ACD00D68A8F /* UIImage+RoundedCorner.m in Sources */,
+				F9E03CED20945B4800D68A8F /* ElementDetails.m in Sources */,
+				F9E03CDA20945B2700D68A8F /* UITextView+Extra.m in Sources */,
+				F9E03CDE20945B2700D68A8F /* UITextField+Extra.m in Sources */,
+				F9E03CB220945A9300D68A8F /* RMFormSelectionViewController.m in Sources */,
+				F9E03CFC20945B6100D68A8F /* RMFormsRowInfo.m in Sources */,
+				F9E03CCD20945AF300D68A8F /* DataPopOver.m in Sources */,
+				F9E03D0720945B9900D68A8F /* GlobalConstants.m in Sources */,
+				F9E03CCC20945AF300D68A8F /* DatePopOver.m in Sources */,
+				F9E03CB120945A9300D68A8F /* SSTextView.m in Sources */,
+				F9E03CC020945ACD00D68A8F /* UIImage+Alpha.m in Sources */,
+				F9E03CFD20945B6100D68A8F /* RMFormsCateforyInfo.m in Sources */,
 				F9E03C82209459E500D68A8F /* main.m in Sources */,
+				F9E03CEE20945B4800D68A8F /* DataController.m in Sources */,
+				F9E03CCB20945AF300D68A8F /* ImagePopOver.m in Sources */,
 				F9E03C74209459E500D68A8F /* AppDelegate.m in Sources */,
+				F9E03CDD20945B2700D68A8F /* UIButton+Extra.m in Sources */,
+				F9E03CBF20945ACD00D68A8F /* UIImage+Resize.m in Sources */,
+				F9E03CFE20945B6100D68A8F /* FormParser.m in Sources */,
+				F9E03CDB20945B2700D68A8F /* UISegmentedControl+Extra.m in Sources */,
+				F9E03CDC20945B2700D68A8F /* UISwitch+Extra.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +668,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = FormBuilder/PrefixHeader.pch;
 				INFOPLIST_FILE = FormBuilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RM.FormBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,11 +684,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = FormBuilder/PrefixHeader.pch;
 				INFOPLIST_FILE = FormBuilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RM.FormBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
