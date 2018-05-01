@@ -1,7 +1,7 @@
 # Dynamic Form Bilder
-# Current supported Fields
- 1. Label Field  
- 2. Text Field  
+#####  Current supported Fields
+1. Label Field  
+2. Text Field  
 3. Text View  
 4. CheBox Type  
 5.  DatePicker 
@@ -17,3 +17,7 @@
 15. LabTextBig  
 16. DataPickerMulti  
 
+License
+----
+
+MIT
